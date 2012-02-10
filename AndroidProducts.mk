@@ -18,4 +18,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_supersonic.mk
+    $(LOCAL_DIR)/aokp.mk
