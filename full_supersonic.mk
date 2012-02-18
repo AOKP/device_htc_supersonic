@@ -78,11 +78,11 @@ PRODUCT_PACKAGES += \
 #    copybit.qsd8k \
 
 ##Disable HWAccel for now
-ADDITIONAL_BUILD_PROPERTIES += \
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.disable_hw_accel=true
 
 # USB
-ADDITIONAL_DEFAULT_PROPERTIES += \
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mass_storage
 
 # Keylayouts
