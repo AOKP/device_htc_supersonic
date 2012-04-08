@@ -112,7 +112,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.enabletr=false
 
 # USB
-ADDITIONAL_DEFAULT_PROPERTIES += \
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mass_storage \
     persist.service.adb.enable=1
 # Keylayouts
