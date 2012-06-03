@@ -24,6 +24,7 @@ enum {
 	MDP_RGB_565,		/* RGB 565 planar */
 	MDP_XRGB_8888,		/* RGB 888 padded */
 	MDP_Y_CBCR_H2V2,	/* Y and CbCr, pseudo planar w/ Cb is in MSB */
+	MDP_Y_CBCR_H2V2_ADRENO,
 	MDP_ARGB_8888,		/* ARGB 888 */
 	MDP_RGB_888,		/* RGB 888 planar */
 	MDP_Y_CRCB_H2V2,	/* Y and CrCb, pseudo planar w/ Cr is in MSB */
