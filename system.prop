@@ -41,3 +41,11 @@ ro.ril.set.mtu1472 = 1
 ro.cdma.voicemail.number = mine
 
 mobiledata.interfaces=rmnet0,gprs,wimax0
+
+# hardware info
+ro.device.cpu=1GHz Qualcomm Snapdragon QSD8650 
+ro.device.gpu=Adreno 200
+ro.device.rear_cam=8 MP
+ro.device.front_cam=1.3 MP
+ro.device.screen_res=480x800
+
